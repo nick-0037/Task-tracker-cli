@@ -84,6 +84,7 @@ function listTasks(status = null) {
   } else {
     console.log('No task found.')
   }
+  return filteredTasks
 }
 
 const [,, command, ...args] = process.argv
@@ -110,3 +111,5 @@ switch (command) {
   default: 
     console.log('Invalid command')
 }
+
+module.exports = {addTask, updateTask, deleteTask, markTask, listTasks, readTasks}
