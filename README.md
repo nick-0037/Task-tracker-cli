@@ -22,19 +22,19 @@ To use the Task Tracker CLI, run the following commands:
 
 - Update a Task:
 
-  node index.js update <task-id> "Updated task description"
+  node index.js update \<task-id\> "Updated task description"
 
 - Delete a Task:
 
-  node index.js delete <task-id>
+  node index.js delete \<task-id\>
 
 - Mark a Task as In Progress:
 
-  node index.js mark-in-progress <task-id>
+  node index.js mark-in-progress \<task-id\>
 
 - Mark a Task as Done:
 
-  node index.js mark-done <task-id>
+  node index.js mark-done \<task-id\>
 
 - List tasks:
 
