@@ -97,7 +97,7 @@ describe('Task Management', () => {
     expect(tasksAfterMark[3].status).toBe("in-progress")
   })
 
-  test('taskList should return all list of the tasks ', () => {
+  test('taskList should return all list of the tasks', () => {
     fs.writeFileSync(filePath, JSON.stringify(initialTasks))
 
     const allTasks = listTasks()
